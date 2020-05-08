@@ -40,6 +40,7 @@ public class Student_DAO_Imp  implements Student_DAO{
 	public boolean deleteStudent(Student student) {
 		boolean status=false;
 		try {
+			
 			ListIterator<Student> listIterator = students.listIterator();
 			while(listIterator.hasNext()) {
 			    Student s = listIterator.next();
@@ -101,5 +102,7 @@ public class Student_DAO_Imp  implements Student_DAO{
 	private int getNextStudentId() {
 		return students.size()+1;
 	}
+
+
 	
 }
