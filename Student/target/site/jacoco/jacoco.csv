@@ -1,0 +1,8 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Student,jms,OrderTransactionReceiver,6,0,0,0,2,0,1,0,1,0
+Student,DAO,Student_DAO_Imp,28,145,6,12,13,40,5,12,0,8
+Student,Model,Student,27,46,0,0,1,20,1,10,1,10
+Student,Service,Student_Service_Imp,0,27,0,0,0,6,0,6,0,6
+Student,Controller,Controller,33,3,0,0,8,1,5,1,5,1
+Student,config,StudentApplication,5,15,0,0,2,5,1,2,1,2
+Student,config,Configu,0,15,0,0,0,5,0,2,0,2

@@ -1,0 +1,33 @@
+type: maven
+integrationBranches:
+  - master
+
+pipelineAdministrators:
+  - 00247504
+
+notifications:
+  onlyOnIntegration: true
+  emails:
+    - your.name@aa.com
+  
+CI:
+  versioning:
+    autoIncrement: false
+    supportSnapshots: false
+  
+  pre:
+    - name: 'step name'
+      steps: |
+        sh 'command'
+    - name: 'other step name'
+      stepsFile: fileName.groovy
+  post:
+    - name: 'step name'
+      steps: |
+        sh 'command'
+    - name: 'other step name'
+      stepsFile: fileName.groovy
+
+    test:  ...
+    stage: ...
+    prod:  ...
